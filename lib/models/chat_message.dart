@@ -28,7 +28,7 @@ List demeChatMessages = [
     messageStatus: MessageStatus.viewed,
     isSender: true,
   ),
-  ChatMessage(
+/*  ChatMessage(
     text: "",
     messageType: ChatMessageType.audio,
     messageStatus: MessageStatus.viewed,
@@ -39,7 +39,7 @@ List demeChatMessages = [
     messageType: ChatMessageType.video,
     messageStatus: MessageStatus.viewed,
     isSender: true,
-  ),
+  ),*/
   ChatMessage(
     text: "Error happend",
     messageType: ChatMessageType.text,

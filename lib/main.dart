@@ -1,4 +1,9 @@
+import 'package:doctor/screens/schedule/schedule_screen.dart';
+import 'package:doctor/screens/splash/splash_screen.dart';
 import 'package:flutter/material.dart';
+
+import 'screens/dashboard/dashboard_screen.dart';
+import 'screens/message/message_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -22,7 +27,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: Container(),
+      home: MessageScreen(),
     );
   }
 }
